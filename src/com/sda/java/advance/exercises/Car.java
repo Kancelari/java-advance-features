@@ -1,18 +1,19 @@
 package com.sda.java.advance.exercises;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Objects;
 
-public class Car {
+public class Car implements Serializable {
 //    contain fields: name, model, price, year of manufacture, manufacturer list
 //            (Manufacturer), and engine type (represented as the enum class, e.g. V12, V8, V6, S6, S4, S3).
 
-    private  String  name ;
-    private  String model ;
+    private String name;
+    private String model;
 
-    private  Integer yearManufacture;
+    private Integer yearManufacture;
 
-    private  Double price;
+    private Double price;
 
     private List<Manufacturer> manufacturers;
 

@@ -1,0 +1,12 @@
+Word | Frequency
+Hello | 7
+where | 1
+are | 1
+you | 1
+Klaus | 1
+is | 1
+here | 1
+After | 1
+all | 1
+the | 1
+time | 1

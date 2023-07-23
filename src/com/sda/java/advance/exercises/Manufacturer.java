@@ -1,14 +1,15 @@
 package com.sda.java.advance.exercises;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Manufacturer {
+public class Manufacturer implements Serializable {
 
 //    fields: name, year of establishment, country
 
-    private String name ;
-    private Integer yearEstablishment ;
-    private  String country;
+    private String name;
+    private Integer yearEstablishment;
+    private String country;
 
     public Manufacturer(String name, Integer yearEstablishment, String country) {
         this.name = name;
